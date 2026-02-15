@@ -2,7 +2,7 @@
   "name": "catremin",
   "version": "0.0.1",
   "description": "Catremin is a",
-  "main": "main.js",
+  "main": "scripts/index.js",
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1",
