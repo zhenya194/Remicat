@@ -1,3 +1,7 @@
 button {
     float: right;
 }
+
+body {
+    background-color: rgb(117, 33, 196);
+}
