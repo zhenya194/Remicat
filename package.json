@@ -1,7 +1,7 @@
 {
   "name": "catremin",
   "version": "0.0.1",
-  "description": "Catremin is a",
+  "description": "Remicat is an application which can help you to do breaks",
   "main": "scripts/index.js",
   "scripts": {
     "start": "electron .",
