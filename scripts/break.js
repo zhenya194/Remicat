@@ -9,7 +9,7 @@ function createWindow() {
     }
   });
 
-  win.loadFile('../pages/break.html');
+  win.loadFile('pages/break.html');
 }
 
 app.whenReady().then(createWindow);
