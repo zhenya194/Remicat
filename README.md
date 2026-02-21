@@ -1,6 +1,6 @@
 # Remicat
 
-Remicat is an application which can help you to do breaks.
+Remicat is an application which can be your reminder and callendar/
 
 ## Libraries
 
