@@ -2,7 +2,7 @@
   "name": "catremin",
   "version": "0.0.1",
   "description": "Remicat is an application which can help you to do breaks",
-  "main": "scripts/index/index.js",
+  "main": "scripts/index.js",
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -30,6 +30,12 @@
   "type": "commonjs",
   "devDependencies": {
     "electron": "^40.4.1",
-    "electron-builder": "^26.7.0"
+    "electron-builder": "^22.14.13"
+  },
+  "overrides": {
+    "minimatch": "^9.0.0",
+    "glob": "^10.0.0",
+    "ejs": "^3.1.10",
+    "tar": "^7.5.7"
   }
 }
