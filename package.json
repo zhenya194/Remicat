@@ -2,7 +2,7 @@
   "name": "catremin",
   "version": "0.0.1",
   "description": "Remicat is an application which can help you to do breaks",
-  "main": "scripts/index.js",
+  "main": "scripts/process.js",
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1",

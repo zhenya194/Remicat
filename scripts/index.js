@@ -1,3 +1,4 @@
+// CREATE WINDOW
 const { app, BrowserWindow } = require('electron');
 
 function createWindow() {
@@ -13,6 +14,7 @@ function createWindow() {
 }
 
 app.whenReady().then(createWindow);
+
 
 function showAbout() {
     document.getElementById("about").style.display = "block"

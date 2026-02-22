@@ -1,7 +1,7 @@
-const { app, BrowserWindow } = require('electron');
+const { appBreak, BrowserWindowBreak } = require('electron');
 
-function createWindow() {
-  const win = new BrowserWindow({
+function createWindowBreak() {
+  const winBreak = new BrowserWindowBreak({
     width: 2000,
     height: 1000,
     webPreferences: {
@@ -9,7 +9,7 @@ function createWindow() {
     }
   });
 
-  win.loadFile('pages/break.html');
+  winBreak.loadFile('../pages/break.html');
 }
 
-app.whenReady().then(createWindow);
+appBreak.whenReady().then(createWindowBreak);
