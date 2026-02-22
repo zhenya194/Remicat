@@ -32,8 +32,7 @@ logs/
 *.pem
 
 .vscode/*
-!.vscode/extensions.json
-!.vscode/launch.json
+.vs/
 .idea/
 *.suo
 *.ntvs*
