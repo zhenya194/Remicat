@@ -2,6 +2,10 @@ button {
     float: right;
 }
 
-body {
+body.violettheme {
     background-color: rgb(125, 39, 206);
+}
+
+body.darktheme {
+    background-color: #560a51;
 }

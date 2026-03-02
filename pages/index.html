@@ -6,8 +6,7 @@
     <title>Catremin</title>
     <link rel="stylesheet" href="../styles/styles_index.css">
 </head>
-<body>
-    
+<body violettheme()>
     <div id="about">
         <h1>Remicat</h1>
         <p>is an application which can help you to do breaks.</p>
@@ -15,7 +14,13 @@
 
 
     <div id="config" style="display: none;">
-        <h1>Hello 2!</h1>
+        <h1>Configurations</h1>
+            <button type="button" id="darktheme" onclick="darktheme()">
+                Set dark theme
+            </button>
+            <button type="button" id="violettheme" onclick="violettheme()">
+                Set violet theme
+            </button>
     </div>
 
     <button onclick="showAbout()">About</button> <br> <br>
@@ -24,7 +29,7 @@
         <button>Github repo</button>
     </a>
 
-    <script src="../scripts/index.js></script>
+    <script src="../scripts/index.js"></script>
 
 </body>
 </html>
